@@ -10,6 +10,17 @@ package com.company;
 public class CarDemo {
 
     public static void main(String[] args) {
-	// write your code here
+
+        Car myCar = new Car();
+
+        myCar.setMake("Ford");
+        myCar.setModel("Focus");
+        myCar.setColor("Gray");
+        myCar.setYear(2012);
+
+        System.out.println("My car is made by: " + myCar.getMake());
+        System.out.println("The model of my car is a: " + myCar.getModel());
+        System.out.println("The color of my car is: " + myCar.getColor());
+        System.out.println("My car was manufactured in: " + myCar.getYear());
     }
 }
